@@ -1,0 +1,100 @@
+.message-container {
+  max-height: 100%;
+  /* over flow is used for scroll bar */
+  /* overflow-y: auto; */
+  /* align-content: center; */
+  background-color: #0e0d32;
+  /* padding: 20px; */
+  width:100%;
+ 
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-top: 5px solid #ccc;
+  margin-top: auto;
+  margin-left: 4px;
+}
+
+.input-container input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+  width:1000px;
+  height:70px;
+}
+
+/* send button */
+.message-button {
+  padding: 8px 12px;
+  background-color: #7289da;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  height:90px;
+  width:300px;
+  font-size: 32px;
+}
+
+.chat-room-messages {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  flex-grow: 1;
+}
+
+.exit-button {
+  background-color: #ff6961; /* Light red */
+  color: white;
+  border: none;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  align-self: flex-end;
+  margin-top: 10px;
+}
+
+.users-container {
+  width: 100%;
+  height:10%;
+  /* /* background-color: #0e0d32; */
+    margin-top: auto;
+  align-items: center;
+  justify-content: center;
+} 
+
+.room-name-heading {
+  font-family: "Press Start 2P", system-ui;
+  text-decoration:underline;
+  font-size: large;
+  align-content:center;
+  padding: 2rem;
+ text-align:center;
+ font-size: 50px;
+
+  
+}
+
+.room-description {
+  margin-top: -50px;
+  font-family: "Press Start 2P", system-ui;
+  /* text-decoration:underline; */
+  align-content:center;
+  padding: 2rem;
+ text-align:center;
+ font-size: 20px;
+}
+
+.chat-room-bubble-for-chat-room-message {
+  display:flex;
+  flex-direction:column;
+  /* overflow-y: auto; */
+    /* height:100%; */
+}

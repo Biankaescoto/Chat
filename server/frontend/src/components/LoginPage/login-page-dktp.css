@@ -1,0 +1,19 @@
+.login-popup {
+  background-size: 50%;
+}
+
+.login-content {
+  width: 25rem;
+  scale: 125%;
+}
+
+.login-logo {
+  width: 9rem;
+  border-radius: 100%;
+}
+
+.email-input,
+.password-input {
+  width: 18rem;
+}
+

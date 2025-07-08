@@ -1,0 +1,14 @@
+@import url(./reset.css);
+/* ! This is the root css file, it will serve to import the mobile and desktop css */
+
+/* ? The fonts go here */
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Shade&family=DotGothic16&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
+
+/* *mobile view */
+@import url(./mobile.css);
+
+/* *desktop view = dktp */
+
+@import url(./desktop.css) only screen and (min-width: 500px);

@@ -1,0 +1,105 @@
+.component_room-tile {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  aspect-ratio: 1/1;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.room-tile-img {
+  width: 100%;
+  border-radius: 0.5rem;
+  position: absolute;
+  z-index: -1;
+}
+
+.my-chat-room-settings-btn-container {
+  display: flex;
+  align-items: center;
+  padding-left: 3.25rem;
+}
+
+.my-chat-room-settings-btn {
+  height: fit-content;
+  width: 2.5rem;
+  font-size: 1.5rem;
+  background-color: transparent;
+  border: none;
+  color: white;
+  top: -6px;
+  right: -3px;
+  position: absolute;
+}
+
+.my-chat-room-settings-btn:hover {
+  cursor: pointer;
+  color: aqua;
+}
+
+.room-action-btn {
+  width: fit-content;
+  height: fit-content;
+  padding: 0.25rem;
+  margin-top: 2.25rem;
+  margin-bottom: 1rem;
+  border-radius: 3px;
+  font-size: 0.75rem;
+  font-family: "Press Start 2P", system-ui;
+  border: none;
+  box-shadow: 2px 2px 2px black;
+}
+
+.room-action-btn:hover {
+  cursor: pointer;
+  background-color: navy;
+  color: aqua;
+}
+
+.my-chat-room-menu {
+  display: flex;
+  gap: 1rem;
+}
+
+.my-chat-room-update-btn,
+.my-chat-room-delete-btn {
+  width: fit-content;
+  height: fit-content;
+  border-radius: 3px;
+  font-weight: bold;
+  font-family: "DotGothic16", sans-serif;
+  border: none;
+  box-shadow: 2px 2px 2px black;
+}
+
+.my-chat-room-update-btn:hover,
+.my-chat-room-delete-btn:hover {
+  color: aqua;
+  background-color: navy;
+  cursor: pointer;
+}
+.slick-prev {
+  left: -25px;
+  scale: 130%;
+}
+
+.slick-next {
+  right: -25px;
+  scale: 130%;
+}
+
+
+.room-tile-name {
+  position: absolute;
+  top: 0.75rem;
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: bold;
+  font-family: "DotGothic16", sans-serif;
+  color: greenyellow;
+  text-shadow: 2px 1px 1px black;
+  max-width: 75%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

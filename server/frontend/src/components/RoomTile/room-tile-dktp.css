@@ -1,0 +1,56 @@
+.component_room-tile {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+  aspect-ratio: 1/1;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.slick-prev {
+  left: -35px;
+  scale: 200%;
+}
+
+.slick-next {
+  right: -35px;
+  scale: 200%;
+}
+
+.my-chat-room-settings-btn {
+  font-size: 2rem;
+  top: -3px;
+  right: 3px;
+  position: absolute;
+}
+
+.room-action-btn {
+  padding: 0.5rem 1rem;
+  margin-top: 5rem;
+  border-radius: 3px;
+  font-size: 2rem;
+  font-family: "Press Start 2P", system-ui;
+}
+
+.room-action-btn:hover {
+  cursor: pointer;
+  background-color: navy;
+  color: aqua;
+}
+
+.room-tile-name {
+  top: 1rem;
+  left: 1rem;
+  font-size: 2rem;
+  text-shadow: 2px 2px 1px black;
+  max-width: 75%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.my-chat-room-update-btn,
+.my-chat-room-delete-btn {
+  font-size: 1.5rem;
+}

@@ -1,0 +1,30 @@
+.delete-room-popup-msg {
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.delete-room-popup-btns {
+    display: flex;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.delete-room-yes-btn, .delete-room-cancel-btn{
+    width: 5rem;
+    height: 2.25rem;
+    border-radius: 2px;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: "DotGothic16", sans-serif;
+    border: none;
+    box-shadow: 1.5px 1.5px 1.5px black;
+    background-color: white;
+}
+
+.delete-room-yes-btn:hover, .delete-room-cancel-btn:hover{
+    background-color: navy;
+    color: aqua;
+    cursor: pointer;
+}

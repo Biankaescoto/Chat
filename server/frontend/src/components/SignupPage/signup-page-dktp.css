@@ -1,0 +1,20 @@
+.sign-up-popup {
+  background-size: 50%;
+}
+
+.sign-up-content {
+  width: 25rem;
+  scale: 125%;
+}
+
+.signup-logo {
+  width: 9rem;
+  border-radius: 100%;
+}
+
+.email-input,
+.password-input,
+.first-name-input,
+.last-name-input {
+  width: 18rem;
+}

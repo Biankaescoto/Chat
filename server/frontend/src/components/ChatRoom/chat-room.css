@@ -1,0 +1,61 @@
+/* style for entire chatroom container */
+.chat-room-page {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100%;
+}
+.chat-room {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  box-shadow: 1 1 10px rgba(0, 0, 0, 0);
+
+  /* for scroll bar */
+  background-color: #1010108b;
+  color:#fff;
+}
+
+.chat-room-options {
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+  padding: 30px 0;
+  background-color: rgba(9, 10, 2, 0.664);
+  width: 100%;
+}
+
+
+.chat-room-options button {
+  padding: 12px 20px;
+  font-size: 27px;
+  border: 2px solid #8da1eb;
+  background-color: #7289da;
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 0 5px;
+  font-family: "Press Start 2P", system-ui;
+}
+
+/* users container */
+
+.users-container {
+  /* for scroll bar */
+  margin: 0;
+  margin-top:30px;
+  margin-bottom:30px;
+}
+
+.user-container h2 {
+  padding:20px;
+  /* margin: 0; */
+  background-color: #f0f0f0;
+  border-bottom: 1px solid #ccc;
+}
+
+
+

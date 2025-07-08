@@ -1,0 +1,127 @@
+.sign-up-popup {
+  background-image: url(/images/dark-blue-squares.png);
+  background-image: cover;
+  background-size: 100%;
+  position: fixed;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sign-up-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: skyblue;
+  width: 20rem;
+  height: fit-content;
+  border-radius: 0.5rem;
+  text-align: center;
+  gap: 1rem;
+  padding: 1rem 0;
+  -webkit-box-shadow: 11px 11px 8px -4px #011044;
+  -moz-box-shadow: 11px 11px 8px -4px #021552;
+  box-shadow: 11px 11px 8px -4px #021450;
+}
+
+.signup-logo {
+  width: 7rem;
+  border-radius: 100%;
+}
+
+.signup-header {
+  font-family: "Bungee Inline", sans-serif;
+  color: black;
+  margin-top: 0;
+  font-size: 3rem;
+}
+
+.status-notif {
+  font-size: 1rem;
+  color: green;
+  text-shadow: 1px 1px 1px greenyellow;
+  font-family: "Press Start 2P", system-ui;
+  margin: 0 1rem;
+}
+
+.error-notif {
+  font-size: 1rem;
+  color: red;
+  text-shadow: 1px 1px 1px darkred;
+  font-family: "Press Start 2P", system-ui;
+  margin: 0 1rem;
+}
+
+.email-input,
+.password-input,
+.first-name-input,
+.last-name-input {
+  width: 15rem;
+  height: 2rem;
+  border-radius: 0.5rem;
+  font-family: "DotGothic16", sans-serif;
+  font-size: 1.25rem;
+  border: none;
+  padding-left: 0.5rem;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+input:focus,
+input[textarea]:focus,
+.uneditable-input:focus {
+  box-shadow: 0 1px 1px white inset, 1px 1px 2px white;
+  outline: 0 none;
+}
+
+.signup-btn {
+  width: 8rem;
+  height: 2.5rem;
+  border-radius: 0.25rem;
+  font-family: "DotGothic16", sans-serif;
+  background-color: white;
+  font-size: 1.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  font-weight: bold;
+  box-shadow: 1px 1px 1px black;
+}
+
+.signup-btn:hover {
+  cursor: pointer;
+  color: #1a88df;
+  box-shadow: none;
+}
+
+.login-link-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.25rem;
+  font-family: "DotGothic16", sans-serif;
+  font-size: 11pt;
+  width: 100%;
+}
+
+.login-link {
+  text-decoration: underline;
+}
+
+.login-link:hover {
+  cursor: pointer;
+}
+
+.login-link:visited {
+  color: black;
+}

@@ -1,0 +1,15 @@
+/* ! This will import all the desktop css files */
+@import url("../components/UpdateRoomPopup/update-room-popup-dktp.css");
+@import url("../components/DeleteRoomPopup/delete-room-popup-dktp.css");
+@import url("../components/LoginPage/login-page-dktp.css");
+@import url("../components/SignupPage/signup-page-dktp.css");
+@import url("../components/Lobby/lobby-dktp.css");
+@import url("../components/Navbar/navbar-dktp.css");
+@import url("../components/RoomTile/room-tile-dktp.css");
+/* @import url("../components/ChatRoom/chat-room-dktp.css"); */
+@import url("../components/ChatRoomUser/chat-room-user-dktp.css");
+@import url("../components/ChatRoomMessage/chat-room-message-dktp.css");
+@import url("../components/CreateRoomPopup/create-room-popup-dktp.css");
+@import url("../components/SettingsPage/settings-page-dktp.css");
+@import url("../components/Popup/popup-dktp.css");
+@import "../components/ChatRoomBubble/chat-room-bubble-dktp.css";

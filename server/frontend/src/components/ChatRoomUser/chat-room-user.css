@@ -1,0 +1,54 @@
+.users-popup {
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.users-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 60px;
+}
+
+.user-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  padding:10px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  font-family: "Bungee Inline", sans-serif;
+  color: whitesmoke;
+}
+
+.user-name {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.user-status-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.user-online {
+  background-color: #4caf50; 
+}
+
+.user-offline {
+  background-color: #f44336; 
+}

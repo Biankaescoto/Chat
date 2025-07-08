@@ -1,0 +1,23 @@
+.lobby-navbar {
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+.logo-link-container {
+    padding-left: 2rem;
+  }
+
+  .lobby-settings-btn-container {
+    padding-right: 2rem;
+  }
+
+  .navbar-lobby-link, .usersName {
+    font-size: 1.5rem;
+
+}
+
+.lobby-settings-btn {
+    width: 3rem;
+    height: 3rem;
+    font-size: 2.75rem;
+}

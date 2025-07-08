@@ -1,0 +1,15 @@
+/* ! This will import all the mobile css files */
+@import url("../components/UpdateRoomPopup/update-room-popup.css");
+@import url("../components/DeleteRoomPopup/delete-room-popup.css");
+@import url("../components/LoginPage/login-page.css");
+@import url("../components/SignupPage/signup-page.css");
+@import url("../components/Lobby/lobby.css");
+@import url("../components/Navbar/navbar.css");
+@import url("../components/RoomTile/room-tile.css");
+@import url("../components/ChatRoom/chat-room.css");
+@import url("../components/ChatRoomUser/chat-room-user.css");
+@import url("../components/ChatRoomMessage/chat-room-message.css");
+@import url("../components/CreateRoomPopup/create-room-popup.css");
+@import url("../components/SettingsPage/settings-page.css");
+@import url("../components/Popup/popup.css");
+
